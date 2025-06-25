@@ -65,8 +65,8 @@ console.log(number2); //descending order
 
 //Need to check - Task
 let numberstring = [700,150,10,"swati", "apple"];
-//numberstring.sort((a,b)=> a-b);  
-//console.log(numberstring); 
+numberstring.sort((a,b)=> a-b);  
+console.log(numberstring); 
 
 
 
