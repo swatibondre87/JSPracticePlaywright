@@ -55,8 +55,9 @@ number.sort();
 console.log(number); 
 
 let number1 = [700,150,10,40];
-number1.sort((a,b)=> a-b);  
-console.log(number1);  //ascending order
+console.log(number1.sort())
+//number1.sort((a,b)=> a-b);  
+//console.log(number1);  //ascending order
 
 let number2 = [700,150,10,445];
 number2.sort((a,b)=> b-a);  
@@ -64,9 +65,11 @@ console.log(number2); //descending order
 
 
 //Need to check - Task
-let numberstring = [700,150,10,"swati", "apple"];
-numberstring.sort((a,b)=> a-b);  
-console.log(numberstring); 
+let numberstring = [10, "swati",150,  110, "apple"];
+//let numberstring = [100,"kiwi", 10, "banana"]
+console.log(numberstring.sort())
+// numberstring.sort((a,b)=> a-b);  
+// console.log(numberstring); 
 
 
 
